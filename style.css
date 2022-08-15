@@ -193,7 +193,7 @@ ul li a:hover {
     font-family: sans-serif;
     text-align: center;
 
-    color: rgba(138, 193, 215, 0.998);
+    color: rgba(130, 189, 22, 0.66);
     font-size: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -210,4 +210,47 @@ ul li a:hover {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus {
+    outline: none;
+
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 260px;
+    height: 30px;
+    margin-left: 30px;
+    background: rgba(119, 143, 150, 0.79);
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s, ease;
+
+
+
+}
+
+.btnn:hover {
+    background: #fff;
+    color: rgba(119, 143, 150, 0.79);
+}
+
+.btnn a {
+    text-decoration: none;
+    color: rgba(130, 189, 22, 0.66);
+    font-weight: bold;
 }
