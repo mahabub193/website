@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(https://images.unsplash.com/photo-1660463972017-0b29b8279f38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.navbar {
+    width: 1500px;
+    height: 85px;
+    margin: auto;
+}
+
+.icon {
+    width: 300px;
+    float: left;
+    height: 75px;
+}
+
+.logo {
+    color: rgba(138, 193, 215, 0.998);
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left: 280px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 15px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgba(138, 193, 215, 0.998);
+    ;
+
+}
+
+.search {
+    width: 300px;
+    float: left;
+    margin-left: 160px;
+
+
+
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 220px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgba(138, 193, 215, 0.998);
+    margin-top: 13px;
+    border-right: none;
+    color: white;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
